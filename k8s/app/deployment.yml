@@ -13,8 +13,8 @@ spec:
         app: backend-service
     spec:
       containers:
-        - name: backend-service
-          image: volume-sandobx:latest
-          imagePullPolicy: IfNotPresent
-          ports:
-            - containerPort: 8000
+      - name: backend-service
+        image: volume-sandbox:latest
+        imagePullPolicy: IfNotPresent
+        ports:
+          - containerPort: 8000
